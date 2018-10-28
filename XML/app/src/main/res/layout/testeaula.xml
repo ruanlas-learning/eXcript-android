@@ -1,0 +1,10 @@
+<pessoa
+    idade=20
+    nome="José">
+<endereco>
+    <rua></rua>
+</endereco>
+<endereco>
+    <rua></rua>
+</endereco>
+    </pessoa>

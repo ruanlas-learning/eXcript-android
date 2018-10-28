@@ -1,0 +1,34 @@
+<!-- Estamos definindo o nosso Gerenciador de Layout como LinearLayout -->
+<!--
+    # android:layout_width="match_parent" & android:layout_height="match_parent"
+    ### > define a largura e a altura do componente que será exibido na tela
+
+    O valor 'match_parent' significa que o componente vai utilizar o maior espaço valor possível
+    O valor 'wrap_content' significa que o componente vai utilizar tudo o que ele precisar (se precisar de
+            10px, ele utilizará, se precisar de 20px, também utilizará)
+
+    # android:orientation="horizontal"
+    ### > define a orientação dos componentes no layout
+ -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    >
+    <!--
+        Estamos definindo quais componentes queremos dentro do nosso Gerenciador de Layout
+      -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Minha primeira tela em XML"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Minha primeira tela em XML"/>
+
+</LinearLayout>

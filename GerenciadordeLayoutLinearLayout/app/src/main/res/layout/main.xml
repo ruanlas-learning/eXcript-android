@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+    <!-- Os gerenciadores de Layout Facilitam a organização dos componentes na tela -->
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10px"
+        android:layout_marginTop="10px"
+        android:text="Espaço na memória: Suficiente" />
+    <!--
+     ### O atributo 'android:layout_marginTop="10px"' define a margem do topo do elemento
+     ### O atributo 'android:layout_marginLeft="10px"' define a margem da esquerda do elemento
+     -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10px"
+        android:layout_marginTop="25px"
+        android:text="Espaço em disco: suficiente" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10px"
+        android:layout_marginTop="25px"
+        android:text="Conexão com a internet: ativa" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10px"
+        android:layout_marginTop="25px"
+        android:text="Tipo de conexão: 3G" />
+
+
+</LinearLayout>

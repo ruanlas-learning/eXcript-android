@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ruan.androidmanifestxml">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
+<!-- ########## Este arquuivo contém as configurações gerais do projeto
+    ##### Principais propriedades das tags:
+
+    ## tag <manifest>:
+        * android:versionCode="1"  ==> Utiliza-se somente numerais e indica qual a
+          versão do app (esses numerais devem crescer a cada versão)
+        * android:versionName="Versão teste"  ==> Define a versão do app em modo texto.
+          Diferencia cada versão para o usuário, para que ele saiba qual versão está utilizando
+
+    ## tag <uses-sdk>:
+        (fica dentro da tag <manifest>)
+        * android:minSdkVersion="8"  ==> Temos definido a API 8, ou seja, a versão 2.2 do Android
+        * android:targetSdkVersion="18"  ==> Definimos para qual API estamos lançando. Sendo
+          assim, o apk será otimizado para esta versão (Recomendado colocar a versão atual
+          do android)
+
+    ## tag <application>:
+        (fica dentro da tag <manifest>)
+        * android:allowBackup="true"  ==> Define se é permitido fazer backup na nuvem, na clould
+        * android:icon="@mipmap/ic_launcher"  ==> Define o ícone da aplicação
+        * android:label="@string/app_name"  ==> Define o nome da aplicação
+        * android:theme="@style/AppTheme"  ==> Define o tema da aplicação
+
+    ## tag <activity>:
+        (fica dentro da tag <application>)
+        * android:name=".MainActivity"  ==> Definimos o nome da Activity que será executada
+        * android:label="@string/app_name"  ==> Define o texto que deve aparecer no nome da
+          aplicação quando o usuário estiver nesta Activity (Podemos alterar o nome baseado
+          na activity que o usuário está)
+
+    ## tag <intent-filter>:
+        (fica dentro da tag <activity>)
+    ## tag <action>:
+        (fica dentro da tag <intent-filter>)
+
+ -->

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">StringXML</string>
+    <string name="msg">Olá, eu vim do arquivo string.xml</string>
+</resources>

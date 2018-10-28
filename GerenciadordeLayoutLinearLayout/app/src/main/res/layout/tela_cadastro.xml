@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Iremos definir outro gerenciador de layout para organizar os outros componentes
+     referentes à cada linha da tela de cadastro-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome :"/>
+        <!-- a propiedade 'wrap_content' utiliza todo o espaço que for necessário, e a
+         propiedade 'match_parent' utiliza todo o espaço disponível-->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calular :"/>
+        <!-- a propiedade 'wrap_content' utiliza todo o espaço que for necessário, e a
+         propiedade 'match_parent' utiliza todo o espaço disponível-->
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email :"/>
+        <!-- a propiedade 'wrap_content' utiliza todo o espaço que for necessário, e a
+         propiedade 'match_parent' utiliza todo o espaço disponível-->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+    </LinearLayout>
+
+</LinearLayout>
